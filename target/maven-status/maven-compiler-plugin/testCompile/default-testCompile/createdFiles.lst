@@ -1,0 +1,5 @@
+com\juaracoding\ecom\InventoryTest.class
+com\juaracoding\ecom\providers\DataTestProvider.class
+com\juaracoding\ecom\DragDropTest.class
+com\juaracoding\ecom\AuthenticationTest.class
+com\juaracoding\ecom\InventoryAddCartTest.class

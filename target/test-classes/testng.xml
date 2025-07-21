@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Swaglabs eCommerce Suite">
+
+  <!-- Global parameter semua test -->
+  <parameter name="username" value="standard_user" />
+  <parameter name="password" value="secret_sauce" />
+  <parameter name="baseURL" value="https://www.saucedemo.com/v1/index.html" />
+
+  <test name="Authentication Test" enabled="false">
+    <classes>
+      <class name="com.juaracoding.ecom.AuthenticationTest" />
+    </classes>
+  </test>
+
+  <test name="Inventory Product Test" enabled="false">
+    <classes>
+      <class name="com.juaracoding.ecom.InventoryTest" />
+    </classes>
+  </test>
+
+  <test name="Drag and Drop Test" enabled="false">
+    <classes>
+      <class name="com.juaracoding.ecom.DragDropTest" />
+    </classes>
+  </test>
+
+  <test name="Add To Cart Test and Badge Verification">
+    <classes>
+      <class name="com.juaracoding.ecom.InventoryAddCartTest" />
+    </classes>
+  </test>
+
+</suite>
