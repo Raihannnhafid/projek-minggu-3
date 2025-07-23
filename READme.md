@@ -9,6 +9,15 @@ This project automates test cases for a Web eCommerce platform using **Java**, *
 
 ---
 
+## 📌 Scope
+This project includes automated testing of several key features on the Swag Labs website, namely:
+
+- Login page for all valid users as well as error scenarios.
+- Product page, including sorting features and detailed product views.
+- Shopping cart page for users who have successfully logged in.
+
+---
+
 ## 📋 System Requirements
 
 Make sure you have the following installed:
@@ -18,6 +27,12 @@ Make sure you have the following installed:
 - **IDE** such as **Visual Studio Code**, **IntelliJ IDEA**, etc.
 - **Google Chrome** browser
 - **ChromeDriver** (compatible with your Chrome version)
+
+---
+
+## 📄 Test Cases
+- **For full details, plaase refer to the following documen:**
+[**Test Cases - Ecommerce.xlsx**](TestCases-Ecommerce.xlsx)
 
 ---
 
@@ -36,6 +51,9 @@ Make sure you have the following installed:
     ```bash
     code .
     ```
+
+---
+
 ## ▶️ Run All Tests
 **To run all automated tests:**
 ```bash
@@ -48,6 +66,8 @@ mvn clean test
 mvn clean test -Dsurefire.suiteXmlFiles=src/test/resources/testng.xml
 ```
 
+---
+
 ## 🧰 Tech Stack Used
 - **Java**
 - **Maven**
@@ -55,6 +75,8 @@ mvn clean test -Dsurefire.suiteXmlFiles=src/test/resources/testng.xml
 - **TestNG**
 - **Page Object Model (POM)**
 - **ExtentReports (optional if configured)**
+
+---
 
 ## 📂 Project Structure (Sample)
 ```text
@@ -103,10 +125,16 @@ mvn clean test -Dsurefire.suiteXmlFiles=src/test/resources/testng.xml
                     └───ecom
                         └───providers
 ```
+
+---
+
+
 ## ⚠️ Notes
 - **Ensure that your chromedriver version matches your Chrome browser version.**
 
 - **You can configure WebDriver setup in DriverManager.java or use a config.properties file if available.**
+
+---
 
 ## 📄 License
 **project is for learning and testing purposes only.**
