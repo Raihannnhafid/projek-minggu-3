@@ -38,15 +38,15 @@ Make sure you have the following installed:
     ```
 ## ▶️ Run All Tests
 **To run all automated tests:**
-    ```bash
-    mvn clean test
-    ```
+```bash
+mvn clean test
+```
 
 ## 📁 Run Specific Test Suite
 **To run tests using a specific suite (e.g., testng.xml):**
-    ```bash
-    mvn clean test -Dsurefire.suiteXmlFiles=src/test/resources/testng.xml
-    ```
+```bash
+mvn clean test -Dsurefire.suiteXmlFiles=src/test/resources/testng.xml
+```
 
 ## 🧰 Tech Stack Used
 - **Java**
