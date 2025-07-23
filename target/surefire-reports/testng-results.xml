@@ -1,151 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-22T19:29:56 ICT" name="Swaglabs eCommerce Suite" finished-at="2025-07-22T19:31:23 ICT" duration-ms="87797">
+  <suite started-at="2025-07-23T09:37:19 ICT" name="Swaglabs eCommerce Suite" finished-at="2025-07-23T09:37:42 ICT" duration-ms="22966">
     <groups>
     </groups>
-    <test started-at="2025-07-22T19:29:56 ICT" name="Authentication Test" finished-at="2025-07-22T19:31:02 ICT" duration-ms="66135">
-      <class name="com.juaracoding.ecom.AuthenticationTest">
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.juaracoding.ecom.AuthenticationTest@6ae5aa72]" started-at="2025-07-22T19:29:57 ICT" name="loginTest" data-provider="loginDataProvider" finished-at="2025-07-22T19:30:10 ICT" duration-ms="13199" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[standard_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[https://www.saucedemo.com/v1/inventory.html]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2025-07-23T09:37:19 ICT" name="Inventory Test" finished-at="2025-07-23T09:37:42 ICT" duration-ms="22966">
+      <class name="com.juaracoding.ecom.InventoryTest">
+        <test-method signature="addToCartTest()[pri:0, instance:com.juaracoding.ecom.InventoryTest@245b4bdc]" started-at="2025-07-23T09:37:19 ICT" name="addToCartTest" finished-at="2025-07-23T09:37:30 ICT" duration-ms="10460" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.juaracoding.ecom.AuthenticationTest@6ae5aa72]" started-at="2025-07-22T19:30:10 ICT" name="loginTest" data-provider="loginDataProvider" finished-at="2025-07-22T19:30:20 ICT" duration-ms="9697" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[problem_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[https://www.saucedemo.com/v1/inventory.html]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- addToCartTest -->
+        <test-method signature="productDisplayTest()[pri:0, instance:com.juaracoding.ecom.InventoryTest@245b4bdc]" started-at="2025-07-23T09:37:30 ICT" name="productDisplayTest" finished-at="2025-07-23T09:37:36 ICT" duration-ms="6136" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.juaracoding.ecom.AuthenticationTest@6ae5aa72]" started-at="2025-07-22T19:30:20 ICT" name="loginTest" data-provider="loginDataProvider" finished-at="2025-07-22T19:30:28 ICT" duration-ms="8016" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[jonosebastian]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Epic sadface: Username and password do not match any user in this service]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- productDisplayTest -->
+        <test-method signature="productSortFeatureTest()[pri:0, instance:com.juaracoding.ecom.InventoryTest@245b4bdc]" started-at="2025-07-23T09:37:36 ICT" name="productSortFeatureTest" finished-at="2025-07-23T09:37:42 ICT" duration-ms="6336" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.juaracoding.ecom.AuthenticationTest@6ae5aa72]" started-at="2025-07-22T19:30:28 ICT" name="loginTest" data-provider="loginDataProvider" finished-at="2025-07-22T19:30:40 ICT" duration-ms="12547" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[standard_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sambel]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Epic sadface: Username and password do not match any user in this service]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.juaracoding.ecom.AuthenticationTest@6ae5aa72]" started-at="2025-07-22T19:30:40 ICT" name="loginTest" data-provider="loginDataProvider" finished-at="2025-07-22T19:30:50 ICT" duration-ms="10057" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[standard_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Epic sadface: Password is required]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.juaracoding.ecom.AuthenticationTest@6ae5aa72]" started-at="2025-07-22T19:30:50 ICT" name="loginTest" data-provider="loginDataProvider" finished-at="2025-07-22T19:31:02 ICT" duration-ms="11339" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Epic sadface: Username is required]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-      </class> <!-- com.juaracoding.ecom.AuthenticationTest -->
-    </test> <!-- Authentication Test -->
-    <test started-at="2025-07-22T19:31:02 ICT" name="Drag Drop and Resizing Test" finished-at="2025-07-22T19:31:23 ICT" duration-ms="21543">
-      <class name="com.juaracoding.ecom.DragDropTest">
-        <test-method signature="dragElementTest()[pri:0, instance:com.juaracoding.ecom.DragDropTest@4218d6a3]" started-at="2025-07-22T19:31:02 ICT" name="dragElementTest" finished-at="2025-07-22T19:31:13 ICT" duration-ms="10641" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dragElementTest -->
-        <test-method signature="resizeElementTest()[pri:0, instance:com.juaracoding.ecom.DragDropTest@4218d6a3]" started-at="2025-07-22T19:31:13 ICT" name="resizeElementTest" finished-at="2025-07-22T19:31:23 ICT" duration-ms="10900" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resizeElementTest -->
-      </class> <!-- com.juaracoding.ecom.DragDropTest -->
-    </test> <!-- Drag Drop and Resizing Test -->
+        </test-method> <!-- productSortFeatureTest -->
+      </class> <!-- com.juaracoding.ecom.InventoryTest -->
+    </test> <!-- Inventory Test -->
   </suite> <!-- Swaglabs eCommerce Suite -->
 </testng-results>
