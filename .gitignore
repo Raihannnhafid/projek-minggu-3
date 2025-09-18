@@ -1,0 +1,20 @@
+# IDE / Editor
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Log & Temp
+*.log
+*.tmp
+
+# Build
+target/
+build/
+
+# Test reports
+/test-output/
+/surefire-reports/
